@@ -57,6 +57,28 @@ $(document).ready(function() {
 	//  / ____/ _, _/ /_/ / /_/ / /___/ /___/ /  / /   ___/ / 
 	// /_/   /_/ |_|\____/_____/_____/_____/_/  /_/   /____/  
 
-	
+	function primeTime(number) {
+		
+		var prime = true;
+
+		if (number < 0) {
+			prime = false;
+		} else if ((num <= 2) && (num > 0)) {
+			prime = true;
+
+		} else {
+
+
+		// Need to figure out logic behind this............
+		
+		// 	for (var i = 3; i < number; i++) {
+		// 		if (num % i === 0) {
+		// 			prime = false;
+		// 			return prime;
+		// 		}
+			}
+		}
+		return prime;
+	}
 
 });
