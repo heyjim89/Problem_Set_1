@@ -76,7 +76,7 @@ $(document).ready(function() {
 		// 			prime = false;
 		// 			return prime;
 		// 		}
-			// }
+		// 	}
 		}
 		return prime;
 	}
